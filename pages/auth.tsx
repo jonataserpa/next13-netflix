@@ -114,13 +114,22 @@ const Auth = () => {
                 <FaGithub size={32} />
               </div>
             </div>
+
             <p className="text-neutral-500 mt-12">
-              {variant === 'login' ? 'First time using Netflix?' : 'Already have an account?'}
+              {variant === 'login' ? 'First time Netflix?' : 'Already have an account?'}
               <span onClick={toggleVariant} className="text-white ml-1 hover:underline cursor-pointer">
                 {variant === 'login' ? 'Create an account' : 'Login'}
               </span>
               .
             </p>
+
+            <p className="text-neutral-500 mt-4">or login with: </p>
+            
+            <div className="text-neutral-500 mt-4">
+              <p>user: teste@gmail.com</p>
+              <p>senha: teste123456789</p>
+            </div>
+            
           </div>
         </div>
       </div>
