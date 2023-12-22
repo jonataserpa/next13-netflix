@@ -127,7 +127,7 @@ const Auth = () => {
             
             <div className="text-neutral-500 mt-4">
               <p>user: teste@gmail.com</p>
-              <p>senha: teste123456789</p>
+              <p>password: teste123456789</p>
             </div>
             
           </div>
